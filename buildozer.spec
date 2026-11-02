@@ -5,7 +5,8 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,ttf
 version = 0.1
-requirements = python3,kivy,gtts,pillow,arabic-reshaper,python-bidi
+requirements = python3==3.11.9,hostpython3==3.11.9,kivy,pillow,gtts,arabic-reshaper,python-bidi
+
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
